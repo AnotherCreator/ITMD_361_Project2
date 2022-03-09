@@ -1,3 +1,14 @@
+@font-face {
+    font-family: sans-serif, Monospace, Momcake;
+    src: url(../assets/fonts/Momcake/MomcakeBold-WyonA.otf);
+}
+
+body {
+    font-family: Momcake, sans-serif, Monospace;
+    background: #ff8353;
+}
+
+/* ================ TOP NAV AND IMAGE ================ */
 .top_banner_and_nav {
     margin: auto;
     max-width: 100%;
@@ -7,8 +18,8 @@
 
 .mid_links {
     position: absolute;
-    top: 5%;
-    left: 35%;
+    top: 1rem;
+    left: 40rem;
     text-align: center;
 }
 
@@ -25,11 +36,69 @@
 
 .mid_links a {
     color: white;
+    text-decoration: none;
+}
+
+.mid_links a:hover {
+    text-decoration: underline;
 }
 
 .mid_links ul li {
-    margin: 0 2rem;
+    margin: 0 2rem; /* Add spacing between list values */
 }
 
+#onpage {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+/* ================ CONTACT INFO ================ */
+.banner_contact_info {
+    position: absolute;
+    top: 28rem;
+    left: 50rem;
+    text-align: center;
+}
+
+.banner_contact_info ul {
+    list-style-type: none; /* Remove bullets from list */
+    display: inline-block; /* Helps display links horizontally */
+    padding: 0;
+    margin: 0;
+}
+
+.banner_contact_info li {
+    float: left;
+    color: white;
+}
+
+.banner_contact_info a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner_contact_info a:hover {
+    text-decoration: underline;
+}
+
+.banner_contact_info ul li {
+    margin: 0 2rem; /* Add spacing between list values */
+}
+
+/* ================ RESUME NAME ================ */
+
+.banner_resume_intro {
+    position: absolute;
+    top: 5rem;
+    left: 40rem;
+    text-align: center;
+}
+
+.banner_resume_intro ul {
+    list-style-type: none; /* Remove bullets from list */
+    display: inline-block; /* Helps display links horizontally */
+    padding: 0;
+    margin: 0;
+}
 
 
