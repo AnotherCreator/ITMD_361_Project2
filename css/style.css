@@ -3,8 +3,14 @@
     src: url(../assets/fonts/Momcake/MomcakeBold-WyonA.otf);
 }
 
+@font-face {
+    font-family: MomcakeThin;
+    src: url(../assets/fonts/Momcake/MomcakeThin-9Y6aZ.otf);
+}
+
 body {
-    font-family: sans-serif, Monospace;
+    font-family: Momcake, sans-serif, Monospace;
+    font-size: 1.5rem;
     background: #ff8353;
 }
 
@@ -55,7 +61,7 @@ body {
 /* ================ CONTACT INFO ================ */
 .banner_contact_info {
     position: absolute;
-    top: 28rem;
+    top: 27rem;
     left: 50rem;
     text-align: center;
 }
@@ -89,9 +95,9 @@ body {
 
 .banner_resume_intro {
     position: absolute;
-    top: 5rem;
-    left: 40rem;
-    text-align: center;
+    top: 9.5rem;
+    left: 47rem;
+    text-align: left;
 }
 
 .banner_resume_intro ul {
@@ -101,7 +107,23 @@ body {
     margin: 0;
 }
 
-.banner_resume_intro span {
-    font-family: Momcake, sans-serif;
+.banner_resume_intro li {
+    color: white;
 }
 
+.banner_resume_intro #before_name {
+    font-family: MomcakeThin, sans-serif;
+    font-size: 3rem;
+}
+
+.banner_resume_intro #name {
+    font-family: Momcake, sans-serif;
+    font-size: 5rem;
+    text-decoration: underline;
+}
+
+/* ================ RESUME BODY ================ */
+
+.resume {
+    text-align: center;
+}
