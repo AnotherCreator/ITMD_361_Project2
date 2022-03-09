@@ -141,3 +141,17 @@ body {
     text-decoration: underline;
     color: white;
 }
+
+/* ================ BOOKS ================ */
+
+.section_body {
+    margin: 5rem;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+    text-align: center;
+}
+
+/* ================ SCRIPT ================ */
+
+
