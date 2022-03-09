@@ -1,10 +1,10 @@
 @font-face {
-    font-family: sans-serif, Monospace, Momcake;
+    font-family: Momcake;
     src: url(../assets/fonts/Momcake/MomcakeBold-WyonA.otf);
 }
 
 body {
-    font-family: Momcake, sans-serif, Monospace;
+    font-family: sans-serif, Monospace;
     background: #ff8353;
 }
 
@@ -101,7 +101,7 @@ body {
     margin: 0;
 }
 
-.banner_resume_intro.span {
+.banner_resume_intro span {
     font-family: Momcake, sans-serif;
 }
 
