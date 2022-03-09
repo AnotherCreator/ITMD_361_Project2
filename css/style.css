@@ -125,5 +125,17 @@ body {
 /* ================ RESUME BODY ================ */
 
 .resume {
+    margin: 5rem;
+    border-style: solid;
     text-align: center;
+}
+
+.main_header {
+    text-decoration: underline;
+    color: white;
+}
+
+.uni_name {
+    text-decoration: underline;
+    color: white;
 }
