@@ -7,11 +7,29 @@
 
 .mid_links {
     position: absolute;
-    top: 10%;
-    left: 50%;
+    top: 5%;
+    left: 35%;
+    text-align: center;
 }
 
 .mid_links ul {
-    list-style-type: none;
+    list-style-type: none; /* Remove bullets from list */
+    display: inline-block; /* Helps display links horizontally */
+    padding: 0;
+    margin: 0;
 }
+
+.mid_links li {
+    float: left; /* Display links horizontally */
+}
+
+.mid_links a {
+    color: white;
+}
+
+.mid_links ul li {
+    margin: 0 2rem;
+}
+
+
 
