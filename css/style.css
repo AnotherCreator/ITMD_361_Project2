@@ -62,7 +62,7 @@ body {
 .banner_contact_info {
     position: absolute;
     top: 27rem;
-    left: 50rem;
+    left: 35rem;
     text-align: center;
 }
 
@@ -88,7 +88,7 @@ body {
 }
 
 .banner_contact_info ul li {
-    margin: 0 2rem; /* Add spacing between list values */
+    margin: 0 .5rem; /* Add spacing between list values */
 }
 
 /* ================ RESUME NAME ================ */
