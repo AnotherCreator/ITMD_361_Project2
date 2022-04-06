@@ -132,6 +132,10 @@ body {
     text-align: center;
 }
 
+.resume ul {
+    list-style-type: none;
+}
+
 .main_header {
     text-decoration: underline;
     color: white;
@@ -151,7 +155,3 @@ body {
     border-width: 10px;
     text-align: center;
 }
-
-/* ================ SCRIPT ================ */
-
-
